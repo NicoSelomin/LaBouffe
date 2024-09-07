@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaBouffe</title>
     <!-- CSS LINKS -->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- header -->
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img" height="120"  alt="Logo LaBouffe">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link fs-3 me-4" href="#">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-3 me-4" href="#">Menu</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs-3" href="#">Support Client</a>
-                  </li>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" class="img" height="120" alt="Logo LaBouffe">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 me-4" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 me-4" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3" href="#">Support Client</a>
+                        </li>
 
-                </ul>
-              </div>
+                    </ul>
+                </div>
             </div>
-          </nav>
-     </header>
+        </nav>
+    </header>
 
-     <!-- section hero desktop -->
-     <section class="bg-hero px-3 py-5 vh-100">
+    <!-- section hero -->
+    <section class="bg-hero px-3 py-5 vh-100">
         <div class="container mt-md-5 py-5 w-md-75">
             <h1 class="display-3  fw-semibold text-white display-md-1">Bienvenue chez LaBouffe</h1>
-            <p class="text-white-50 fs-4">Découvrez une expérience culinaire inoubliable, où chaque plat est préparé avec passion et fraîcheur. Bienvenue dans notre restaurant, un lieu où les saveurs authentiques se rencontrent.</p>
-            <div class="mx-auto d-flex flex-column flex-md-row justify-content-start gap-4">
+            <p class="text-white-50 fs-4 mt-md-4">Découvrez une expérience culinaire inoubliable, où chaque plat est
+                préparé avec passion et fraîcheur. Bienvenue dans notre restaurant, un lieu où les saveurs authentiques
+                se rencontrent.</p>
+            <div class="mx-auto d-flex flex-column flex-md-row justify-content-start gap-4 mt-md-4">
                 <button class="btn btn-lg btn-outline-warning">Voir le menu du jour</button>
                 <button class="btn btn-lg btn-light">Passer une commande</button>
             </div>
         </div>
-     </section>
+    </section>
+    <!-- Menu du jour -->
+    <section class="py-5">
+        <h2 class="text-center text-warning dispaly-1 fw-bold"> &triangleright; Memu du jour &triangleleft;</h2>
+        <div class="container">
+            <div class="row menu-container">
+                <hr class="text-warning display-2 fw-bold">
+                <div class="col-12 col-md-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 d-flex mt-2 gap-2">
+                                <img src="assets/img/menu.jpg" width="150" class="img-fluid" alt="">
+                                <div>
+                                    <h3 class="fw-semibold">Atiéké + Poisson fumé</h3>
+                                    <hr>
+                                    <p class="fs-4"><span>Prix : </span>2000f</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     <!-- JavaScript -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js" type="module"></script>
 </body>
+
 </html>
