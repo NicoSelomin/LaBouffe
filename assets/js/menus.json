@@ -1,38 +1,38 @@
 [
     {
       "nom": "Salade fraîcheur",
-      "prix": 8.50,
+      "prix": 2500,
       "categorie": "Entrée",
       "image": "https://example.com/images/salade-fraicheur.jpg"
     },
     {
       "nom": "Filet de poulet rôti",
-      "prix": 15.90,
+      "prix": 1500,
       "categorie": "Plat principal",
       "image": "https://example.com/images/filet-poulet-roti.jpg"
     },
     {
       "nom": "Tartelette aux pommes caramélisées",
-      "prix": 6.00,
+      "prix": 5000,
       "categorie": "Dessert",
       "image": "https://example.com/images/tartelette-pommes.jpg"
     },
     {
       "nom": "Soupe à l'oignon",
-      "prix": 7.50,
+      "prix": 2000,
       "categorie": "Entrée",
       "image": "https://example.com/images/soupe-oignon.jpg"
     },
     {
       "nom": "Risotto aux champignons",
-      "prix": 14.00,
+      "prix": 10000,
       "categorie": "Plat principal",
       "image": "https://example.com/images/risotto-champignons.jpg"
 
     },
     {
       "nom": "Crème brûlée",
-      "prix": 5.50,
+      "prix": 1750,
       "categorie": "Dessert",
       "image": "https://example.com/images/creme-brulee.jpg"
     }
