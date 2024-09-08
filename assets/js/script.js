@@ -1,17 +1,10 @@
 const response = await fetch('assets/js/menus.json'); // Utilisation de 'await' car fetch() est asynchrone
 let menus = await response.json(); // Utilisation de .json() pour extraire les données
-console.log(menus);
-const joursFrancais = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
-
-const today = new Date(); // Obtenir la date actuelle
-const dayName = joursFrancais[today.getDay()]; // Obtenir le jour de la semaine
-
-console.log(dayName); // Affiche le jour actuel en français
-
 
 let menuContainer = document.querySelector('.menu-container');
 
 function genererMenu(menus){
+    // Affichage du menu pour la journée courante
     for (let i = 0; i < menus.length; i++) {
         const menuItem = document.createElement('div');
         menuItem.classList.add('col-12','col-md-6');
@@ -55,4 +48,17 @@ function genererMenu(menus){
     }
 }
 
-genererMenu(menus);
+//Récupération du jour
+function getCurrentDay() {
+    const days = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+    const today = new Date();
+    return days[today.getDay()];
+}
+//Afficher le menu du jour
+function menuDuJour(){
+    const currentDay = getCurrentDay();
+    let menuDuJour = menus.filter(menu => menu.jours.includes(currentDay));
+    genererMenu(menuDuJour);
+}
+
+menuDuJour();
