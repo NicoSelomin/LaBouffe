@@ -3,38 +3,38 @@
       "nom": "Salade fraîcheur",
       "prix": 2500,
       "categorie": "Entrée",
-      "image": "https://example.com/images/salade-fraicheur.jpg"
+      "image": "assets/img/menu.jpg"
     },
     {
       "nom": "Filet de poulet rôti",
       "prix": 1500,
       "categorie": "Plat principal",
-      "image": "https://example.com/images/filet-poulet-roti.jpg"
+      "image": "assets/img/menu.jpg"
     },
     {
       "nom": "Tartelette aux pommes caramélisées",
       "prix": 5000,
       "categorie": "Dessert",
-      "image": "https://example.com/images/tartelette-pommes.jpg"
+      "image": "assets/img/menu.jpg"
     },
     {
       "nom": "Soupe à l'oignon",
       "prix": 2000,
       "categorie": "Entrée",
-      "image": "https://example.com/images/soupe-oignon.jpg"
+      "image": "assets/img/menu.jpg"
     },
     {
       "nom": "Risotto aux champignons",
       "prix": 10000,
       "categorie": "Plat principal",
-      "image": "https://example.com/images/risotto-champignons.jpg"
+      "image": "assets/img/menu.jpg"
 
     },
     {
       "nom": "Crème brûlée",
       "prix": 1750,
       "categorie": "Dessert",
-      "image": "https://example.com/images/creme-brulee.jpg"
+      "image": "assets/img/menu.jpg"
     }
   ]
   
