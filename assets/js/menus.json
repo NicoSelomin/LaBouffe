@@ -1,40 +1,66 @@
 [
-    {
-      "nom": "Salade fraîcheur",
-      "prix": 2500,
-      "categorie": "Entrée",
-      "image": "assets/img/menu.jpg"
-    },
-    {
-      "nom": "Filet de poulet rôti",
+  {
+      "nom": "Atiéké + Poisson fumé",
+      "prix": 2000,
+      "categorie": "Plat principal",
+      "image": "assets/img/atieke_poisson_fume.jpg",
+      "avis": 4.5,
+      "jours": ["Lundi", "Mercredi", "Vendredi"]
+  },
+  {
+      "nom": "Pâte noire + Sauce viande",
       "prix": 1500,
       "categorie": "Plat principal",
-      "image": "assets/img/menu.jpg"
-    },
-    {
-      "nom": "Tartelette aux pommes caramélisées",
-      "prix": 5000,
-      "categorie": "Dessert",
-      "image": "assets/img/menu.jpg"
-    },
-    {
-      "nom": "Soupe à l'oignon",
-      "prix": 2000,
-      "categorie": "Entrée",
-      "image": "assets/img/menu.jpg"
-    },
-    {
-      "nom": "Risotto aux champignons",
-      "prix": 10000,
+      "image": "assets/img/pate_noire_sauce_viande.jpg",
+      "avis": 4.7,
+      "jours": ["Mardi", "Jeudi", "Samedi"]
+  },
+  {
+      "nom": "Foufou + Sauce graine",
+      "prix": 2500,
       "categorie": "Plat principal",
-      "image": "assets/img/menu.jpg"
-
-    },
-    {
-      "nom": "Crème brûlée",
-      "prix": 1750,
-      "categorie": "Dessert",
-      "image": "assets/img/menu.jpg"
-    }
-  ]
-  
+      "image": "assets/img/foufou_sauce_graine.jpg",
+      "avis": 4.8,
+      "jours": ["Lundi", "Mercredi", "Dimanche"]
+  },
+  {
+      "nom": "Dakouin accompagné de poisson de mer",
+      "prix": 1800,
+      "categorie": "Plat principal",
+      "image": "assets/img/dakouin_poisson_mer.jpg",
+      "avis": 4,
+      "jours": ["Mardi", "Vendredi", "Dimanche"]
+  },
+  {
+      "nom": "Alloco + Poulet braisé",
+      "prix": 2200,
+      "categorie": "Plat principal",
+      "image": "assets/img/alloco_poulet_braise.jpg",
+      "avis": 4.9,
+      "jours": ["Mercredi", "Samedi", "Dimanche"]
+  },
+  {
+      "nom": "Tchep Sénégalai",
+      "prix": 1700,
+      "categorie": "Plat principal",
+      "image": "assets/img/tchep.jpeg",
+      "avis": 4.4,
+      "jours": ["Jeudi", "Vendredi", "Samedi"]
+  },
+  {
+      "nom": "Poisson braisé + Banane plantain",
+      "prix": 2400,
+      "categorie": "Plat principal",
+      "image": "assets/img/poisson_braise_banane_plantain.jpeg",
+      "avis": 4.8,
+      "jours": ["Lundi", "Vendredi", "Dimanche"]
+  },
+  {
+    "nom": "Piron + Poisson braisé",
+    "prix": 2400,
+    "categorie": "Plat principal",
+    "image": "assets/img/piron_poisson_braise.jpeg",
+    "avis": 3,
+    "jours": ["Lundi", "Vendredi", "Dimanche"]
+  }
+]
