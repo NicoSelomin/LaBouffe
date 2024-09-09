@@ -62,3 +62,15 @@ function menuDuJour(){
 }
 
 menuDuJour();
+
+//Afficher le menu en fonction du filtre basé sur les jours
+function filterByDays(day){
+    let menuFiltre = menus.filter(menu => menu.jours.includes(day));
+    genererMenu(menuFiltre);
+}
+
+//Ecouter le formulaire de filtre en fonction du jour choisi
+document.getElementById("select_jours").addEventListener("change", function() {
+    menuContainer.innerHTML = "";
+    filterByDays(this.value);
+});
