@@ -1,66 +1,107 @@
 [
-  {
+    {
       "nom": "Atiéké + Poisson fumé",
       "prix": 2000,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/atieke_poisson_fume.jpg",
       "avis": 4.5,
       "jours": ["Lundi", "Mercredi", "Vendredi"]
-  },
-  {
+    },
+    {
       "nom": "Pâte noire + Sauce viande",
       "prix": 1500,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/pate_noire_sauce_viande.jpg",
       "avis": 4.7,
       "jours": ["Mardi", "Jeudi", "Samedi"]
-  },
-  {
+    },
+    {
       "nom": "Foufou + Sauce graine",
       "prix": 2500,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/foufou_sauce_graine.jpg",
       "avis": 4.8,
       "jours": ["Lundi", "Mercredi", "Dimanche"]
-  },
-  {
+    },
+    {
       "nom": "Dakouin accompagné de poisson de mer",
       "prix": 1800,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/dakouin_poisson_mer.jpg",
       "avis": 4,
       "jours": ["Mardi", "Vendredi", "Dimanche"]
-  },
-  {
+    },
+    {
       "nom": "Alloco + Poulet braisé",
       "prix": 2200,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/alloco_poulet_braise.jpg",
       "avis": 4.9,
       "jours": ["Mercredi", "Samedi", "Dimanche"]
-  },
-  {
-      "nom": "Tchep Sénégalai",
+    },
+    {
+      "nom": "Tchep Sénégalais",
       "prix": 1700,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/tchep.jpeg",
       "avis": 4.4,
       "jours": ["Jeudi", "Vendredi", "Samedi"]
-  },
-  {
+    },
+    {
       "nom": "Poisson braisé + Banane plantain",
       "prix": 2400,
-      "categorie": "Plat principal",
+      "categorie": "Plat africain",
       "image": "assets/img/poisson_braise_banane_plantain.jpeg",
       "avis": 4.8,
       "jours": ["Lundi", "Vendredi", "Dimanche"]
-  },
-  {
-    "nom": "Piron + Poisson braisé",
-    "prix": 2400,
-    "categorie": "Plat principal",
-    "image": "assets/img/piron_poisson_braise.jpeg",
-    "avis": 3,
-    "jours": ["Lundi", "Vendredi", "Dimanche"]
-  }
+    },
+    {
+      "nom": "Piron + Poisson braisé",
+      "prix": 2400,
+      "categorie": "Plat africain",
+      "image": "assets/img/piron_poisson_braise.jpeg",
+      "avis": 3,
+      "jours": ["Lundi", "Vendredi", "Dimanche"]
+    },
+    {
+      "nom": "Beignets + Jus d'orange",
+      "prix": 800,
+      "categorie": "Dessert",
+      "image": "assets/img/beignets_jus_orange.jpg",
+      "avis": 4.2,
+      "jours": ["Mardi", "Jeudi", "Samedi"]
+    },
+    {
+      "nom": "Crêpe chocolat + Glace vanille",
+      "prix": 1200,
+      "categorie": "Dessert",
+      "image": "assets/img/crepe_chocolat_glace.jpg",
+      "avis": 4.5,
+      "jours": ["Lundi", "Mercredi", "Samedi"]
+    },
+    {
+      "nom": "Burger + Frites",
+      "prix": 2500,
+      "categorie": "Fast-food",
+      "image": "assets/img/burger_frites.jpg",
+      "avis": 4.3,
+      "jours": ["Mardi", "Jeudi", "Samedi"]
+    },
+    {
+      "nom": "Pizza Margherita",
+      "prix": 2800,
+      "categorie": "Fast-food",
+      "image": "assets/img/pizza_margherita.jpg",
+      "avis": 4.7,
+      "jours": ["Vendredi", "Samedi", "Dimanche"]
+    },
+    {
+      "nom": "Shawarma au poulet",
+      "prix": 2000,
+      "categorie": "Fast-food",
+      "image": "assets/img/shawarma_poulet.jpg",
+      "avis": 4.6,
+      "jours": ["Mercredi", "Samedi", "Dimanche"]
+    }
 ]
+  
