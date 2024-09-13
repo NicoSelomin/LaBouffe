@@ -5,7 +5,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/atieke_poisson_fume.jpg",
       "avis": 4.5,
-      "jours": ["Lundi", "Mercredi", "Vendredi"]
+      "jours": ["Lundi", "Mercredi", "Vendredi"],
+      "description": "Savourez un plat africain traditionnel avec du poisson fumé riche en saveurs, accompagné d'atiéké, une semoule de manioc légère et délicate."
     },
     {
       "nom": "Pâte noire + Sauce viande",
@@ -13,7 +14,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/pate_noire_sauce_viande.jpg",
       "avis": 4.7,
-      "jours": ["Mardi", "Jeudi", "Samedi"]
+      "jours": ["Mardi", "Jeudi", "Samedi"],
+      "description": "Un incontournable de la cuisine africaine, cette pâte noire à base de farine de maïs est servie avec une sauce généreuse aux morceaux de viande tendre et bien assaisonnée."
     },
     {
       "nom": "Foufou + Sauce graine",
@@ -21,7 +23,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/foufou_sauce_graine.jpg",
       "avis": 4.8,
-      "jours": ["Lundi", "Mercredi", "Dimanche"]
+      "jours": ["Lundi", "Mercredi", "Dimanche"],
+      "description": "Plat emblématique, le foufou de banane est accompagné d'une sauce graine épicée et onctueuse, parfaite pour les amateurs de plats relevés."
     },
     {
       "nom": "Dakouin accompagné de poisson de mer",
@@ -29,7 +32,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/dakouin_poisson_mer.jpg",
       "avis": 4,
-      "jours": ["Mardi", "Vendredi", "Dimanche"]
+      "jours": ["Mardi", "Vendredi", "Dimanche"],
+      "description": "Un met typique à base de Dakouin, un tubercule frit, servi avec du poisson de mer frais grillé pour un repas simple mais délicieux."
     },
     {
       "nom": "Alloco + Poulet braisé",
@@ -37,7 +41,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/alloco_poulet_braise.jpg",
       "avis": 4.9,
-      "jours": ["Mercredi", "Samedi", "Dimanche"]
+      "jours": ["Mercredi", "Samedi", "Dimanche"],
+      "description": "Le goût sucré des bananes plantains frites se marie à merveille avec le poulet braisé, grillé à la perfection et assaisonné avec des épices locales."
     },
     {
       "nom": "Tchep Sénégalais",
@@ -45,7 +50,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/tchep.jpeg",
       "avis": 4.4,
-      "jours": ["Jeudi", "Vendredi", "Samedi"]
+      "jours": ["Jeudi", "Vendredi", "Samedi"],
+      "description": "Ce plat traditionnel sénégalais est un riz aux légumes servi avec du poisson, le tout cuisiné dans une sauce savoureuse qui explose en bouche."
     },
     {
       "nom": "Poisson braisé + Banane plantain",
@@ -53,7 +59,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/poisson_braise_banane_plantain.jpeg",
       "avis": 4.8,
-      "jours": ["Lundi", "Vendredi", "Dimanche"]
+      "jours": ["Lundi", "Vendredi", "Dimanche"],
+      "description": "Un duo gagnant pour les amoureux de la cuisine africaine : du poisson braisé aux arômes fumés accompagné de plantains frits, croquants à l'extérieur et moelleux à l'intérieur."
     },
     {
       "nom": "Piron + Poisson braisé",
@@ -61,7 +68,8 @@
       "categorie": "Plat africain",
       "image": "assets/img/piron_poisson_braise.jpeg",
       "avis": 3,
-      "jours": ["Lundi", "Vendredi", "Dimanche"]
+      "jours": ["Lundi", "Vendredi", "Dimanche"],
+      "description": "Une version délicieuse du foufou, ce Piron est servi avec du poisson braisé, pour un plat à la fois léger et nourrissant."
     },
     {
       "nom": "Beignets + Jus d'orange",
@@ -69,7 +77,8 @@
       "categorie": "Dessert",
       "image": "assets/img/beignets_jus_orange.jpeg",
       "avis": 4.2,
-      "jours": ["Mardi", "Jeudi", "Samedi"]
+      "jours": ["Mardi", "Jeudi", "Samedi"],
+      "description": "Une option légère pour le dessert, ces beignets dorés et moelleux sont servis avec un jus d'orange frais pour une touche sucrée et rafraîchissante."
     },
     {
       "nom": "Crêpe chocolat + Glace vanille",
@@ -77,7 +86,8 @@
       "categorie": "Dessert",
       "image": "assets/img/crepe_chocolat_glace.jpg",
       "avis": 4.5,
-      "jours": ["Lundi", "Mercredi", "Samedi"]
+      "jours": ["Lundi", "Mercredi", "Samedi"],
+      "description": "Pour les gourmands, cette crêpe garnie de chocolat fondu et accompagnée de glace vanille est un pur délice à chaque bouchée."
     },
     {
       "nom": "Burger + Frites",
@@ -85,7 +95,8 @@
       "categorie": "Fast-food",
       "image": "assets/img/burger_frites.jpeg",
       "avis": 4.3,
-      "jours": ["Mardi", "Jeudi", "Samedi"]
+      "jours": ["Mardi", "Jeudi", "Samedi"],
+      "description": "Un classique de la cuisine rapide : un burger juteux avec une galette de viande tendre, garni de légumes frais, accompagné de frites croustillantes."
     },
     {
       "nom": "Pizza Margherita",
@@ -93,7 +104,8 @@
       "categorie": "Fast-food",
       "image": "assets/img/pizza_margherita.jpeg",
       "avis": 4.7,
-      "jours": ["Vendredi", "Samedi", "Dimanche"]
+      "jours": ["Vendredi", "Samedi", "Dimanche"],
+      "description": "Simplicité et authenticité avec cette pizza Margherita, garnie de sauce tomate, de mozzarella fondante et d'une touche de basilic frais."
     },
     {
       "nom": "Shawarma au poulet",
@@ -101,7 +113,7 @@
       "categorie": "Fast-food",
       "image": "assets/img/shawarma_poulet.jpeg",
       "avis": 4.6,
-      "jours": ["Mercredi", "Samedi", "Dimanche"]
+      "jours": ["Mercredi", "Samedi", "Dimanche"],
+      "description": "Un sandwich pita farci de poulet grillé épicé, servi avec une sauce crémeuse, des légumes croquants et des frites pour une explosion de saveurs."
     }
 ]
-  
