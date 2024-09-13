@@ -67,7 +67,7 @@
       "nom": "Beignets + Jus d'orange",
       "prix": 800,
       "categorie": "Dessert",
-      "image": "assets/img/beignets_jus_orange.jpg",
+      "image": "assets/img/beignets_jus_orange.jpeg",
       "avis": 4.2,
       "jours": ["Mardi", "Jeudi", "Samedi"]
     },
@@ -83,7 +83,7 @@
       "nom": "Burger + Frites",
       "prix": 2500,
       "categorie": "Fast-food",
-      "image": "assets/img/burger_frites.jpg",
+      "image": "assets/img/burger_frites.jpeg",
       "avis": 4.3,
       "jours": ["Mardi", "Jeudi", "Samedi"]
     },
@@ -91,7 +91,7 @@
       "nom": "Pizza Margherita",
       "prix": 2800,
       "categorie": "Fast-food",
-      "image": "assets/img/pizza_margherita.jpg",
+      "image": "assets/img/pizza_margherita.jpeg",
       "avis": 4.7,
       "jours": ["Vendredi", "Samedi", "Dimanche"]
     },
@@ -99,7 +99,7 @@
       "nom": "Shawarma au poulet",
       "prix": 2000,
       "categorie": "Fast-food",
-      "image": "assets/img/shawarma_poulet.jpg",
+      "image": "assets/img/shawarma_poulet.jpeg",
       "avis": 4.6,
       "jours": ["Mercredi", "Samedi", "Dimanche"]
     }
