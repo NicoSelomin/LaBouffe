@@ -7,7 +7,7 @@ function genererMenu(menus){
     // Affichage du menu pour la journée courante
     for (let i = 0; i < menus.length; i++) {
         const menuItem = document.createElement('div');
-        menuItem.classList.add('col-12','col-md-6');
+        menuItem.classList.add('col-12','col-md-6',);
         menuItem.innerHTML = `
             <div class="container">
                 <div class="row">
@@ -48,6 +48,26 @@ function genererMenu(menus){
     }
 }
 
+function genererCategorie(menus){
+    // Sélectionner l'élément où les boutons seront insérés
+    const categoriesContainer = document.getElementById('categories');
+
+    // Extraire les catégories uniques à partir de la liste des menus
+    const categories = [...new Set(menus.map(menu => menu.categorie))];
+
+    // Générer dynamiquement les boutons pour chaque catégorie
+    categories.forEach(categorie => {
+    const button = document.createElement('button');
+    button.className = "btn btn-outline-secondary fw-semibold";
+    button.innerText = categorie;
+
+    // Ajouter le bouton à l'élément conteneur
+    categoriesContainer.appendChild(button);
+    });
+}
+
+genererCategorie(menus);
+
 //Récupération du jour
 function getCurrentDay() {
     const days = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
@@ -74,3 +94,4 @@ document.getElementById("select_jours").addEventListener("change", function() {
     menuContainer.innerHTML = "";
     filterByDays(this.value);
 });
+
