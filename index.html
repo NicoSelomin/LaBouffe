@@ -15,7 +15,7 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" class="img" height="120" alt="Logo LaBouffe">
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link fs-3 me-4" href="#">Accueil</a>
+                            <a class="nav-link fs-3 me-4" href="#home">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fs-3 me-4" href="#menu">Menu</a>
@@ -43,24 +43,24 @@
     </header>
 
     <!-- section hero -->
-    <section class="bg-hero px-3 py-5 vh-100">
-        <div class="container mt-md-5 py-5 w-md-75">
-            <h1 class="display-3  fw-semibold text-white display-md-1">Bienvenue chez LaBouffe</h1>
+    <section class="bg-hero px-3 py-5 vh-100" id="home">
+        <div class="container mt-5 py-5 w-md-75">
+            <h1 class="display-3  fw-semibold text-white display-md-1 mt-4">Bienvenue chez LaBouffe</h1>
             <p class="text-white-50 fs-4 mt-md-4">Découvrez une expérience culinaire inoubliable, où chaque plat est
                 préparé <br> avec passion et fraîcheur. Bienvenue dans notre restaurant, un lieu où les saveurs <br> authentiques
                 se rencontrent.</p>
             <div class="mx-auto d-flex flex-column flex-md-row justify-content-start gap-4 mt-md-4">
-                <button class="btn btn-lg btn-outline-warning p-4">Voir le menu du jour</button>
-                <button class="btn btn-lg btn-light p-4">Passer une commande</button>
+                <a  href="#contact" class="btn btn-lg btn-outline-warning p-4">Voir le menu du jour</a>
+                <a  href="#contact" class="btn btn-lg btn-light p-4">Passer une commande</a>
             </div>
         </div>
         
     </section>
     
     <!-- Menu du jour -->
-    <section class="py-5">
+    <section class="py-5" id="menu">
         <h2 class="text-center text-warning dispaly-1 fw-bold"> &triangleright; Memu du jour &triangleleft;</h2>
-        <div class="container">
+        <div class="container" >
             <hr class="text-warning display-2 fw-bold">
             <div class="d-flex  w-md-25 justify-content-center mx-auto mb-4">
                 <label for="jours" class="form-label">Trier par jour</label>
@@ -84,9 +84,9 @@
                 
             </div>
     </section>
-    <footer>
+    <footer id="contact">
         <div class="container-fluid bg-dark p-5">
-            <div class="row mx-auto">
+            <div class="row mx-auto" >
                 <!-- Liens utiles -->
                 <div class="col-12 col-md-4 mx-auto">
                     <h2 class="text-white fw-bold w-100 text-center">Liens utiles <hr></h2>
